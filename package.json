@@ -36,13 +36,13 @@
       "electron/**/*",
       "backend/**/*",
       "backend/config/config.prod.js",
-      "frontend/out/**/*",
+      "frontend/dist/**/*",
       "package.json"
     ],
     "extraResources": [
       {
-        "from": "frontend/out",
-        "to": "frontend/out"
+        "from": "frontend/dist",
+        "to": "frontend/dist"
       }
     ],
     "extraMetadata": {

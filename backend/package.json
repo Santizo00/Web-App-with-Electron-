@@ -12,6 +12,7 @@
   "dependencies": {
     "backend": "file:",
     "dotenv": "^16.4.7",
+    "estructura": "file:..",
     "mysql2": "^3.14.0"
   }
 }

@@ -51,7 +51,7 @@ function createWindow() {
       win.loadURL('http://localhost:3000');
     } else {
       // Usa app.getAppPath() para obtener la ruta base correcta
-      const indexPath = path.join(app.getAppPath(), 'frontend/out/index.html');
+      const indexPath = path.join(app.getAppPath(), 'frontend/dist/index.html');
       console.log('🧭 Cargando:', indexPath);
       win.loadFile(indexPath);
     }
