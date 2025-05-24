@@ -4,6 +4,7 @@ Aplicación de escritorio multiplataforma construida con Electron, React, Tailwi
 
 Estructura de carpetas:
 
+``` text
 estructura/
 ├── backend/                  # Backend en Node.js (conexión y lógica MySQL)
 │   ├── config/
@@ -44,7 +45,7 @@ estructura/
 ├── tsconfig.json             # Configuración global de TypeScript
 ├── vite.config.ts            # Configuración de Vite
 └── README.md                 # 📄 Este archivo
-
+```
 
 
 Scripts
